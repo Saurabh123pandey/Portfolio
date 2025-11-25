@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title> Saurabh Pandey Portfolio </title>
+
+    <link rel="icon" href="./Images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 821px)" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav id="navbar" class="flex s-around bg-color">
+        <div class="left-nav">
+            <h2 class="t-white">Saurabh Pandey</h2>
+        </div>
+        <div class="right-nav">
+            <ul class="flex">
+                <li><a href="#home" class="t-white roboto">Home</a></li>
+                <li><a href="#about" class="t-white roboto">About Me</a></li>
+                <li><a href="#skills" class="t-white roboto">Skills</a></li>
+                <li><a href="#projects" class="t-white roboto">Projects</a></li>
+                <li><a href="#Education" class="t-white roboto">Education</a></li>
+                <li><a href="#Certifications" class="t-white roboto">Certifications</a></li>
+                <li><a href="#contact" class="t-white roboto">Contact me</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Bottom Navigator -->
+    <section id="bottom">
+        <div class="bottom-nav flex s-center items-center">
+            <ul class="flex s-around items-center">
+                <a href="#home">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-house"></i></li>
+                </a>
+                <a href="#about">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-user"></i></li>
+                </a>
+                <a href="#skills">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-code"></i></li>
+                </a>
+                <a href="#projects">
+                    <li class="bottomo-hover flex s-center items-center">
+                        <i class="fa-solid fa-rocket"></i>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Home Section -->
+    <section id="home" class="flex s-around sw-80 m-auto">
+        <div class="home-left flex items-center">
+            <div class="home-content">
+                <h6 class="poppinss">Hi, I'm</h6>
+                <h1 class="t-white">Saurabh pandey</h1>
+                <h4 class="poppinss">Computer Science Student</h4>
+                <a href="#" target="_blank"><button
+                        class="btn poppins">Resume</button></a>
+                <a class="btn live poppins" id="hireme"  href="mailto:saurabhpandey434798@gmail.com"
+                    target="_blank">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-right flex s-center items-center">
+            <div class="circle flex s-center items-center" id="mainImage">
+                <!-- Here in src replace the given link with your image link -->
+                <img src="./Images/1.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1 class="t-center my-2 t-white f-2">About Me</h1>
+        <div class="about-container flex s-around ">
+            <div class=" about-left flex s-center items-center">
+                <!-- Here in src replade the given link with your secondary image link -->
+                <img src="./Images/about.png" alt="" style="width: 50%; height: 100%;">
+            </div>
+
+            <div class="about-right flex">
+                <div class="about-content">
+                    <h1 class="t-white m-b-1 poppins">Saurabh Pandey</h1>
+                    <p class="t-white poppins">
+    A self-motivated MCA student with a strong foundation in Web Development and a growing expertise in 
+    Artificial Intelligence & Machine Learning (AIML). <br><br>
+    Proactive learner with hands-on experience in frontend technologies, problem-solving skills, and a passion 
+    for building user-friendly and innovative solutions. Adaptable, detail-oriented, and committed to continuous 
+    learning, I aim to contribute effectively to a collaborative team environment while advancing my technical 
+    expertise and creating meaningful impact.
+</p>
+
+                    <a class="btn live poppins" id="hireme"
+                        href="https://in.linkedin.com/in/saurabh-pandey-16s30s">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+  <h1 class="t-center my-2 t-white f-2">Skills</h1>
+  <div class="skills-grid" id="skillsGrid">
+    <!-- Skill cards will be injected here by JS -->
+  </div>
+</section>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h1 class=" t-center my-2 t-white f-2">Projects</h1>
+        <div class="projects-container">
+
+            <div class="projects-item flex f-col s-center items-center">
+                <div class="image-container p-one">
+                    <img src="./Images/prediction.png" alt="">
+                </div>
+                <h1 class="t-white poppins">Student Performance Prediction Model</h1>
+                <p class="t-white poppins">A Machine Learning system that predicts a student's final exam score using Linear Regression based on multiple study-related factors.</p>
+                <div class="buttons flex s-around">
+                    <a href="https://github.com/Saurabh123pandey/Student_performance_prediction" target="_blanks"
+                        class="btn mx-1 m-top">GitHub</a>
+                    <a href="https://github.com/Saurabh123pandey/Student_performance_prediction" target="_blanks" class="btn m-top live">Live
+                        Link</a>
+                </div>
+            </div>
+            
+
+            <div class="projects-item flex f-col s-center items-center">
+                <div class="image-container p-one">
+                    <img src="./Images/temporal.png" alt="">
+                </div>
+                <h1 class="t-white poppins">Cybersecurity Incident Temporal Clustering</h1>
+                <p class="t-white poppins">Performs K-Means clustering on incident timestamps to reveal hour, weekday, and month-based patterns.</p>
+                <div class="buttons flex s-around">
+                    <a href="https://github.com/Saurabh123pandey/Temporal_Clustering/tree/main" target="_blanks"
+                        class="btn mx-1 m-top">GitHub</a>
+                    <a href="https://github.com/Saurabh123pandey/Temporal_Clustering/tree/main" target="_blanks" class="btn m-top live">Live
+                        Link</a>
+                </div>
+            </div>
+
+
+
+            <div class="projects-item flex f-col s-center items-center">
+                <div class="image-container p-one">
+                    <img src="./Images/weatherApp.png" alt="">
+                </div>
+                <h1 class="t-white poppins">Weather App</h1>
+                <p class="t-white poppins"> A weather app using HTML, CSS, and JavaScript to fetch and display live weather data.</p>
+                <div class="buttons flex s-around">
+                    <a href="https://github.com/Saurabh123pandey/weather"
+                        target="_blanks" class="btn mx-1 m-top">GitHub</a>
+                    <a href="https://saurabh123pandey.github.io/weather/" target="_blanks" class="btn m-top live">Live
+                        Link</a>
+                </div>
+            </div>
+            
+            
+            
+            <div class="projects-item flex f-col s-center items-center">
+                <div class="image-container p-one">
+                    <img src="./Images/profilecard.png" alt="">
+                </div>
+                <h1 class="t-white poppins">Profile card</h1>
+                <p class="t-white poppins">A dynamic profile card built with HTML, CSS, and JavaScript for interactive user details.</p>
+                <div class="buttons flex s-around">
+                    <a href="https://github.com/Saurabh123pandey/Profile-Card" target="_blanks"
+                        class="btn mx-1 m-top">GitHub</a>
+                    <a href="https://saurabh123pandey.github.io/Profile-Card/" target="_blanks" class="btn m-top live">Live
+                        Link</a>
+                </div>
+            </div>
+            <div class="projects-item flex f-col s-center items-center">
+                <div class="image-container p-one">
+                    <img src="./Images/Tic_Tac_Toe.png" alt="">
+                </div>
+                <h1 class="t-white poppins">Tic-Tac-Toe Game</h1>
+                <p class="t-white poppins">An interactive Tic-Tac-Toe game using HTML, CSS, and JavaScript for game logic and moves.</p>
+                <div class="buttons flex s-around">
+                    <a href="https://github.com/Saurabh123pandey/Tic-Tac-Toe" target="_blanks"
+                        class="btn mx-1 m-top">GitHub</a>
+                    <a href="https://saurabh123pandey.github.io/Tic-Tac-Toe/" target="_blanks" class="btn m-top live">Live
+                        Link</a>
+                </div>
+            </div>
+            <div class="projects-item flex f-col s-center items-center">
+                <div class="image-container p-one">
+                    <img src="./Images/Roc paper Scissor.png" alt="">
+                </div>
+                <h1 class="t-white poppins">Stone-Paper-Scissors Game</h1>
+                <p class="t-white poppins">A classic game using HTML, CSS, and JavaScript for game rules, scoring, and play.</p>
+                <div class="buttons flex s-around">
+                    <a href="https://github.com/Saurabh123pandey/Stone-Paper-Scissors" target="_blanks"
+                        class="btn mx-1 m-top">GitHub</a>
+                    <a href="https://saurabh123pandey.github.io/Stone-Paper-Scissors/" target="_blanks" class="btn m-top live">Live
+                        Link</a>
+                </div>
+            </div>
+            <div class="projects-item flex f-col s-center items-center">
+                <div class="image-container p-one">
+                    <img src="./Images/to-do-list.png" alt="">
+                </div>
+                <h1 class="t-white poppins">To-Do-List</h1>
+                <p class="t-white poppins">A dynamic To-Do List built with HTML, CSS, and JavaScript for adding and managing tasks.</p>
+                <div class="buttons flex s-around">
+                    <a href="https://github.com/Saurabh123pandey/To-Do-List" target="_blanks"
+                        class="btn mx-1 m-top">GitHub</a>
+                    <a href="https://saurabh123pandey.github.io/To-Do-List/" target="_blanks" class="btn m-top live">Live
+                        Link</a>
+                </div>
+            </div>
+            <div class="projects-item flex f-col s-center items-center">
+                <div class="image-container p-one">
+                    <img src="./Images/E-commerce.png" alt="">
+                </div>
+                <h1 class="t-white poppins">E-commerce</h1>
+                <p class="t-white poppins">A visually appealing e-commerce website built with HTML and CSS, with JavaScript adding dynamic features for a seamless shopping experience.</p>
+                <div class="buttons flex s-around">
+                    <a href="https://github.com/Saurabh123pandey/E-Commerce-Website-Frontend" target="_blanks"
+                        class="btn mx-1 m-top">GitHub</a>
+                    <a href="https://saurabh123pandey.github.io/E-Commerce-Website-Frontend/" target="_blanks" class="btn m-top live">Live
+                        Link</a>
+                </div>
+            </div>
+            <div class="projects-item flex f-col s-center items-center">
+                <div class="image-container p-one">
+                    <img src="./Images/AiShowcase.png" alt="">
+                </div>
+                <h1 class="t-white poppins">Ai Showcase</h1>
+                <p class="t-white poppins">A one-stop hub to explore and experience the latest AI tools for learning, creativity, and productivity.</p>
+                <div class="buttons flex s-around">
+                    <a href="https://github.com/Saurabh123pandey/AI-Showcase" target="_blanks"
+                        class="btn mx-1 m-top">GitHub</a>
+                    <a href="https://saurabh123pandey.github.io/AI-Showcase/" target="_blanks" class="btn m-top live">Live
+                        Link</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<!-- Education Section -->
+<section id="Education">
+    <h1 class="t-center my-2 t-white f-2">Education</h1>
+    <div class="education-container">
+        <div class="edu-box">
+            <h3>MCA [ Master of Computer Applications ]</h3>
+            <p>AKTU University (2024–2026)</p>
+        </div>
+        <div class="edu-box">
+            <h3>BCA [ Bachelor of Computer Applications ]</h3>
+            <p>Vikram University (2021–2024)</p>
+        </div>
+        
+        <div class="edu-box">
+            <h3>Intermediate</h3>
+            <p>Maharaja Agrasen Inter College (2021)</p>
+        </div>
+        <div class="edu-box">
+            <h3>High School</h3>
+            <p>Assumption Public School (2019)</p>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Certification section -->
+
+
+<section id="Certifications">
+  <h1 class="t-center my-2 t-white f-2">Certifications</h1>
+  <div class="certification-container">
+    <div class="cert-box">
+      <h3>Machine Learning using Python</h3>
+      <p>Issued by Simplilearn(December-2025).</p>
+    </div>
+
+    <div class="cert-box">
+      <h3>Data Science, Machine Learning, DL, NLP Bootcamp</h3>
+      <p>Issued by Udemy(November-2025).</p>
+    </div>
+
+    <div class="cert-box">
+      <h3>Full-Stack Developer</h3>
+      <p>Issued by IIT Kanpur Technology(March-2023). </p>
+    </div>
+
+    <div class="cert-box">
+      <h3>Python Workshop(7-Days)</h3>
+      <p>Issued by Aradhya Technology(February-2023)</p>
+    </div>
+
+    <div class="cert-box">
+      <h3>Python </h3>
+      <p>Issued by Sololearn(June-2023)</p>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact Me Section -->
+  <section id="contact" class="m-b-1">
+  <h1 class="t-center my-2 t-white f-2">Contact Me</h1>
+  <div class="contact-container">
+    
+    <!-- Left Side (Form) -->
+    <div class="form" id="contactForm">
+      <form action="" id="contactFrom">
+        <div class="name form-div">
+          <input type="text" name="name" id="name" class="poppins" placeholder="Enter Your Name">
+        </div>
+        <div class="email form-div">
+          <input type="email" name="email" id="email" class="poppins" placeholder="Enter Your Email" required>
+        </div>
+        <div class="phone form-div">
+          <input type="phone" name="phone" id="phone" class="poppins" placeholder="Enter Your Phone" required>
+        </div>
+        <div class="textarea form-div">
+          <textarea name="text" id="textarea" cols="30" rows="10" class="poppins"
+            placeholder="Enter Messages"></textarea>
+        </div>
+        <button type="submit" class="btn poppins" id="submit">Send</button>
+      </form>
+    </div>
+
+    <!-- Right Side (Details) -->
+    <div class="contact-info">
+      <div class="info-item">
+        <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+        <p>Deoria Uttar Pradesh (274602)</p>
+      </div>
+      <div class="info-item">
+        <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+        <p>saurabh12cs@email.com</p>
+      </div>
+      <div class="info-item">
+        <div class="icon-circle"><i class="fas fa-phone"></i></div>
+        <p>+91 XXXXXXXX83</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <ul class="flex s-center w-80 m-auto my-2 res">
+            <li><a href="#home" class="poppinss">Home</a></li>
+            <li><a href="#about" class="poppinss">About</a></li>
+            <li><a href="#skills" class="poppinss">Skills</a></li>
+            <li><a href="#projects" class="poppinss">Projects</a></li>
+            <li><a href="#portfolio" class="poppinss">Portfolio</a></li>
+            <li><a href="#Education" class="poppinss">Education</a></li>
+            <li><a href="#Certifications" class="poppinss">Certifications</a></li>
+            <li><a href="#contact" class="poppinss">Contact me</a></li>
+        </ul>
+        <ul class="flex s-center w-80 font-awesome ">
+            <a  href="https://in.linkedin.com/in/saurabh-pandey-16s30s" target="_blank">
+                <li><i class="fa-brands fa-linkedin-in"></i></li>
+            </a>
+            <a href="https://github.com/saurabh123pandey" target="_blank">
+                <li><i class="fa-brands fa-github"></i></li>
+            </a>
+            <a href="https://www.instagram.com/saurabhpandey.____" target="_blank">
+                <li><i class="fa-brands fa-instagram"></i></li>
+            </a>
+            <a href="https://www.telegram.com/channel/@saurabh_1630" target="_blank">
+                <li><i class="fa-brands fa-telegram"></i></li>
+            </a>
+        </ul>
+        <p class="t-center my-2 poppins">&copy; All Rights Reserved - <span class="cpy-white poppins">Saurabh pandey</span></p>
+
+    </footer>
+
+    <div id="scroll-top" onclick="scrolltop()">
+        <span><i class="fa-solid fa-arrow-up"></i></span>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
