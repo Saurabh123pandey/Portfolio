@@ -106,10 +106,3 @@ Dynamic and neatly designed personal profile component using pure web technologi
 
 ---
 
-## 💼 Repository Structure
-/Portfolio
-│── index.html
-│── style.css
-│── images/
-│── projects/
-│── scripts
